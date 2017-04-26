@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Hrútaspilid.cs" />
+    <Compile Include="Risaelduspilid.cs" />
     <Compile Include="Spil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stodhestaspilid.cs" />
