@@ -23,6 +23,7 @@ namespace ClassLibrary1_BAJ_MB
         public string Fadir { get; set; }
         public string Modir { get; set; }
         public string Nyr_Fallin { get; set; }
+        public string Prufa5 { get; set; }
 
 }
 }
