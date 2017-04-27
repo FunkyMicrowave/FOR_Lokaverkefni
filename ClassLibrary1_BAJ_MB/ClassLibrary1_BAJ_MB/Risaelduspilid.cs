@@ -9,11 +9,11 @@ namespace ClassLibrary1_BAJ_MB
     public class Risaelduspilid : Spil
     {
         public string Nafn { get; set; }
-        public double Hæð { get; set; }
+        public string Hæð { get; set; }
         public string Þyngd { get; set; }
         public string Lengd { get; set; }
-        public int Drápseðli { get; set; }
+        public string Drápseðli { get; set; }
         public string Greind { get; set; }
-        public int Aldur { get; set; } 
+        public string Aldur { get; set; } 
     }
 }

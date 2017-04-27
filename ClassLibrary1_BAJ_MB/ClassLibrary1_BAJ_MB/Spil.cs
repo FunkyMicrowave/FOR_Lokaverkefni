@@ -19,9 +19,5 @@ namespace ClassLibrary1_BAJ_MB
         public string Flokkur5 { get; set; }
         public string Flokkur6 { get; set; }
         public string Flokkur7 { get; set; }
-        public string Flokkur8 { get; set; }
-        public string Flokkur9 { get; set; }
-        public string Flokkur10 { get; set; }
-        public string Flokkur11 { get; set; }
     }
 }
