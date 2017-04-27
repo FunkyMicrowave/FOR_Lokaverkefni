@@ -40,12 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Hrútaspilid.cs" />
     <Compile Include="Risaelduspilid.cs" />
     <Compile Include="Sjávardýr.cs" />
     <Compile Include="Spil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Stodhestaspilid.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
