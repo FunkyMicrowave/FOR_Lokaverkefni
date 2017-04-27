@@ -1,0 +1,5 @@
+C:\Users\brynjolfur\Desktop\Skólinn\FOR 4 önn\LokaVerkefni\FOR_Lokaverkefni\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\bin\Debug\ClassLibrary1_BAJ_MB.dll
+C:\Users\brynjolfur\Desktop\Skólinn\FOR 4 önn\LokaVerkefni\FOR_Lokaverkefni\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\bin\Debug\ClassLibrary1_BAJ_MB.pdb
+C:\Users\brynjolfur\Desktop\Skólinn\FOR 4 önn\LokaVerkefni\FOR_Lokaverkefni\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.csprojResolveAssemblyReference.cache
+C:\Users\brynjolfur\Desktop\Skólinn\FOR 4 önn\LokaVerkefni\FOR_Lokaverkefni\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.dll
+C:\Users\brynjolfur\Desktop\Skólinn\FOR 4 önn\LokaVerkefni\FOR_Lokaverkefni\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.pdb
