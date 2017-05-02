@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Brynjólfur Axel Jóhannesson
+ * Matthías Birgisson
+ */
 namespace Lokaverkefni_Console
 {
     class Program
@@ -354,6 +358,25 @@ namespace Lokaverkefni_Console
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine();
+
+            string val = "0";
+            do
+            {
+                Console.Clear();
+                Console.WriteLine("1. Risaedlu spilið");
+                Console.WriteLine("2. Sjávardýra spilið");
+                Console.WriteLine("0. HÆTTA");
+
+                val = Console.ReadLine();
+                switch (val)
+                {
+                    case "1":
+
+                        break;
+                    default:
+                        break;
+                }
+            } while (val != "0");
         }
     }
 }
