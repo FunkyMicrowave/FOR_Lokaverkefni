@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Risaelduspilid.cs" />
+    <Compile Include="Risaedluspilid.cs" />
     <Compile Include="Sjávardýr.cs" />
     <Compile Include="Spil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
