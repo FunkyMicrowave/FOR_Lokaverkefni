@@ -1,0 +1,6 @@
+C:\Users\Matthias\Desktop\Skoli\FOR\Önn4\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.exe.config
+C:\Users\Matthias\Desktop\Skoli\FOR\Önn4\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.exe
+C:\Users\Matthias\Desktop\Skoli\FOR\Önn4\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.pdb
+C:\Users\Matthias\Desktop\Skoli\FOR\Önn4\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.csprojResolveAssemblyReference.cache
+C:\Users\Matthias\Desktop\Skoli\FOR\Önn4\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.exe
+C:\Users\Matthias\Desktop\Skoli\FOR\Önn4\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.pdb
