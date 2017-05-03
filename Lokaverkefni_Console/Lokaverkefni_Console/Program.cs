@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClassLibrary1_BAJ_MB;
 
 /*
  * Brynjólfur Axel Jóhannesson
@@ -24,6 +25,39 @@ namespace Lokaverkefni_Console
                 Console.Clear();
             } while (counter != 12);
 
+                string val = "0";
+                do
+                {
+                    Console.Clear();
+                    Console.WriteLine("1. Risaedlu spilið");
+                    Console.WriteLine("2. Sjávardýra spilið");
+                    Console.WriteLine("0. HÆTTA");
+
+                    val = Console.ReadLine();
+                    switch (val)
+                    {
+                        case "1":
+                        Sjávardýr ELDFISKUR = new Sjávardýr("ELDFISKUR","3","16","2","13","ÓS","");
+                        Sjávardýr SÆOTUR = new Sjávardýr("Sæotur","4","10","4","14","4","");
+                        Sjávardýr BEINHÁKARL = new Sjávardýr("BEINHÁKARL", "5", "0", "2", "21", "3","");
+                        Sjávardýr SLÉTTBAKUR = new Sjávardýr("SLÉTTBAKUR", "8", "0", "3", "34", "4", "");
+                        Sjávardýr SANDTÍGRISHÁFUR = new Sjávardýr("SANDTÍGRISHÁFUR", "6", "13", "2", "25", "3", "");
+                        Sjávardýr GOLÍATVARTARI = new Sjávardýr("GOLÍATVARTARI", "3","4", "4", "13", "5","");
+                        Sjávardýr STÓRI_HVÍTHÁFUR = new Sjávardýr("STÓRI HVÍTHÁFUR", "6", "1", "2", "25", "3", "");
+                        Sjávardýr FLJÓTASAGSKATA = new Sjávardýr("FLJÓTASAGSKATA", "5", "2", "8", "21", "5","");
+                        Sjávardýr HÁFUR = new Sjávardýr("HÁFUR", "3", "2", "2", "13", "3", "");
+                        Sjávardýr HVALHÁKARL = new Sjávardýr("HVALHÁKARL", "6", "0", "2", "27", "3", "");
+                        Sjávardýr BRÚNI_KANI = new Sjávardýr("BRÚNI KANI", "3", "18", "4", "10", "1", "");
+                        Sjávardýr SÆSTEINSUGA = new Sjávardýr("SÆSTEINSUGA", "4", "0", "5", "20", "1", "");
+                        Sjávardýr FLÓÐMANATA = new Sjávardýr("FLÓÐMANATA", "5", "5", "10", "19", "3", "");
+                        Sjávardýr DJÖFLASKATA = new Sjávardýr("DJÖFLASKATA", "6", "0", "3", "26", "2", "");
+                        //búinn með 18261166 á rest eftir
+                            break;
+                        default:
+                            break;
+                    }
+                    Console.ReadKey();
+                } while (val != "0");
             Console.ReadKey();
         }
 
@@ -359,24 +393,6 @@ namespace Lokaverkefni_Console
             Console.WriteLine();
             Console.WriteLine();
 
-            string val = "0";
-            do
-            {
-                Console.Clear();
-                Console.WriteLine("1. Risaedlu spilið");
-                Console.WriteLine("2. Sjávardýra spilið");
-                Console.WriteLine("0. HÆTTA");
-
-                val = Console.ReadLine();
-                switch (val)
-                {
-                    case "1":
-
-                        break;
-                    default:
-                        break;
-                }
-            } while (val != "0");
         }
     }
 }

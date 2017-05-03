@@ -10,3 +10,5 @@ C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni
 C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.exe
 C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.pdb
 C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.csprojResolveAssemblyReference.cache
+C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\ClassLibrary1_BAJ_MB.dll
+C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\ClassLibrary1_BAJ_MB.pdb
