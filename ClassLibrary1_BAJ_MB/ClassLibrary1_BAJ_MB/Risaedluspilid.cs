@@ -8,13 +8,6 @@ namespace ClassLibrary1_BAJ_MB
 {
     public class Risaedluspilid : Spil
     {
-        public string Nafn { get; set; }
-        public string Hæð { get; set; }
-        public string Þyngd { get; set; }
-        public string Lengd { get; set; }
-        public string Drápseðli { get; set; }
-        public string Greind { get; set; }
-        public string Aldur { get; set; }
         public Risaedluspilid(string nafn, string flokkur1, string flokkur2, string flokkur3, string flokkur4, string flokkur5, string flokkur6)
             : base(nafn, flokkur1, flokkur2, flokkur3, flokkur4, flokkur5, flokkur6)
         {
@@ -29,7 +22,7 @@ namespace ClassLibrary1_BAJ_MB
 
         public override string ToString()
         {
-            return string.Format("Nafn: {0} Hæð: {1} þyngd: {2} Lengd: {3} Drápseðli: {4} Greind: {5} Aldur: {6}");
+            return string.Format("Nafn: {0}\n Hæð: {1}m\n þyngd: {2}kg\n Lengd: {3}m\n Drápseðli: {4}\n Greind: {5}\n Aldur: {6} milljón ár\n");
         }
     }
 }

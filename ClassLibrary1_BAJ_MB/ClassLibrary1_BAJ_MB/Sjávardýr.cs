@@ -25,7 +25,7 @@ namespace ClassLibrary1_BAJ_MB
 
         public override string ToString()
         {
-            return string.Format("Nafn: {0} Fágæti: {1} Sædýra stofn: {2} Hætta á áfalli: {3} Verndar þörf: {4} Hætta á útrýmingar hættu {5}");
+            return string.Format("Nafn: {0}\n Fágæti: {1}\n Sædýra stofn: {2}\n Hætta á áfalli: {3}\n Verndar þörf: {4}\n Hætta á útrýmingar hættu {5}\n");
         }
     }
 }

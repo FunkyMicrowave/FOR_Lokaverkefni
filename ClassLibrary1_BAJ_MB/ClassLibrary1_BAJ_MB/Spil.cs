@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 /*
  * Brynjólfur Axel Jóhannesson
- * matias
+ * Matthías Birgisson
  */
 namespace ClassLibrary1_BAJ_MB
 {

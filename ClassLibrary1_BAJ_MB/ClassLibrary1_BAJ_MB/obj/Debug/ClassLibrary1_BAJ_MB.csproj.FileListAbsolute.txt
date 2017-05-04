@@ -8,3 +8,7 @@ C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary
 C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.csprojResolveAssemblyReference.cache
 C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.dll
 C:\Users\sprey\Desktop\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.pdb
+C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\bin\Debug\ClassLibrary1_BAJ_MB.pdb
+C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.csprojResolveAssemblyReference.cache
+C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.dll
+C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\ClassLibrary1_BAJ_MB\ClassLibrary1_BAJ_MB\obj\Debug\ClassLibrary1_BAJ_MB.pdb
