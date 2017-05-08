@@ -1,0 +1,7 @@
+                        Sjávardýr[] sjavardyrfylki = new Sjávardýr[2];
+                        sjavardyrfylki[0] = sjavardyr0;
+                        sjavardyrfylki[1] = sjavardyr1;
+                        foreach(var item in sjavardyrfylki)
+                        {
+                            Console.WriteLine(item.ToString());
+                        }
