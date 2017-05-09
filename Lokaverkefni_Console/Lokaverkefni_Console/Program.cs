@@ -137,23 +137,56 @@ namespace Lokaverkefni_Console
                             }
                             öllSpil[i] = random;
                         }
-                        Console.WriteLine("Þín spil:");
-                        Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine();
+                        int stig = 0;
                         int tala = 0;
+                        int vinningur = 0;
+                        int leikmadur = 0;
                         for (int i = 0; i < spilari1.GetLength(0) - 1; i++)
                         {
+                            leikmadur = i % 2;
+                            leikmadur = leikmadur + 1;
+                            Console.WriteLine("Leikmaður " + leikmadur + "veldu númer flokks(1-6, bannað að breyta eftirá)");
+                            Console.ReadKey();
+                            Console.WriteLine();
                             tala = spilari1[i];
+                            Console.WriteLine("Spilari 1:");
+                            Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine(risaedlufylki[tala]);
-                        }
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine("Spil tölvu:");
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine();
-                        for (int i = 0; i < spilari2.GetLength(0) - 1; i++)
-                        {
                             tala = spilari2[i];
+                            
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("Spilari 2:");
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine(risaedlufylki[tala]);
+                            Console.WriteLine();
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("Hver vann? (1 eða 2, 0 fyrir jafntefli)");
+                            vinningur = Convert.ToInt32(Console.ReadLine());
+                            Console.Clear();
+                            if (vinningur == 1)
+                            {
+                                stig++;
+                            }
+                            else if(vinningur == 2)
+                            {
+                                stig--;
+                            }
+                        }
+                        if (stig < 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Leikmaður 2 vann!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else if (stig > 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.WriteLine("Leikmaður 1 vann!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Það var jafntefli");
                         }
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.ReadKey();
@@ -262,23 +295,56 @@ namespace Lokaverkefni_Console
                             }
                             öllSpil1[i] = random1;
                         }
-                        Console.WriteLine("Þín spil:"); //útskrift
-                        Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine();
+                        int stig1 = 0;
                         int tala1 = 0;
+                        int vinningur1 = 0;
+                        int leikmadur1 = 0;
                         for (int i = 0; i < spilari3.GetLength(0) - 1; i++)
                         {
+                            leikmadur1 = i % 2;
+                            leikmadur1 = leikmadur1 + 1;
+                            Console.WriteLine("Leikmaður " + leikmadur1 + "veldu númer flokks(1-5, bannað að breyta eftirá)");
+                            Console.ReadKey();
+                            Console.WriteLine();
                             tala1 = spilari3[i];
+                            Console.WriteLine("Spilari 1:");
+                            Console.ForegroundColor = ConsoleColor.Blue;
                             Console.WriteLine(sjavardyrfylki[tala1]);
-                        }
-                        Console.ForegroundColor = ConsoleColor.White;
-                        Console.WriteLine("Spil tölvu:");
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine();
-                        for (int i = 0; i < spilari4.GetLength(0) - 1; i++)
-                        {
                             tala1 = spilari4[i];
+
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("Spilari 2:");
+                            Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine(sjavardyrfylki[tala1]);
+                            Console.WriteLine();
+                            Console.ForegroundColor = ConsoleColor.White;
+                            Console.WriteLine("Hver vann? (1 eða 2, 0 fyrir jafntefli)");
+                            vinningur1 = Convert.ToInt32(Console.ReadLine());
+                            Console.Clear();
+                            if (vinningur1 == 1)
+                            {
+                                stig1++;
+                            }
+                            else if (vinningur1 == 2)
+                            {
+                                stig1--;
+                            }
+                        }
+                        if (stig1 < 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.WriteLine("Leikmaður 2 vann!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else if (stig1 > 0)
+                        {
+                            Console.ForegroundColor = ConsoleColor.Blue;
+                            Console.WriteLine("Leikmaður 1 vann!");
+                            Console.ForegroundColor = ConsoleColor.White;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Það var jafntefli");
                         }
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.ReadKey();
