@@ -104,11 +104,60 @@ namespace Lokaverkefni_Console
                         {
                             Console.WriteLine(item.ToString());
                         }
+                        int[] öllSpil = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari1 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari2 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        Random randomRisaedla = new Random();
+                        int random = 0;
+                        int m = 0;
+                        int n = 0;
+                        for (int i = 0; i < 30; i++)
+                        {
+                            random = randomRisaedla.Next(1, 31);
+                            int l = 30;
+                            for (int k = 0; k < l; k++)
+                            {
+                                if (random == öllSpil[k])
+                                {
+                                    random = randomRisaedla.Next(0, 31);
+                                    k = 0;
+                                }
+                                else if (k == 30)
+                                {
+                                    break;
+                                }
+                            }
+                            if (i % 2 == 0 || i == 0)
+                            {
+                                spilari1[m] = random;
+                                m++;
+                            }
+                            else
+                            {
+                                spilari2[n] = random;
+                                n++;
+                            }
+                            öllSpil[i] = random;
+                        }
+                        for (int i = 0; i < 30; i++)
+                        {
+                            Console.Write(spilari1[i] + " ");
+                        }
+                        Console.WriteLine();
+                        for (int i = 0; i < 30; i++)
+                        {
+                            Console.Write(spilari2[i] + " ");
+                        }
+                        Console.WriteLine();
+                        for (int i = 0; i < 30; i++)
+                        {
+                            Console.Write(öllSpil[i] + " ");
+                        }
                         Console.ReadKey();
                         break;
                     case "2":
 
-                        Random randomSjavardyr = new Random();
+                        
 
 
                         Sjávardýr sjavardyr0 = new Sjávardýr("ELDFISKUR", "3", "16", "2", "13", "0", "");
@@ -178,7 +227,55 @@ namespace Lokaverkefni_Console
                             Console.WriteLine(item.ToString());
                         }
 
-
+                        int[] öllSpil1 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari3 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari4 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        Random randomSjavardyr = new Random();
+                        int random1 = 0;
+                        int m1 = 0;
+                        int n1 = 0;
+                        for (int i = 0; i < 30; i++)
+                        {
+                            random1 = randomSjavardyr.Next(1, 31);
+                            int l = 30;
+                            for (int k = 0; k < l; k++)
+                            {
+                                if (random1 == öllSpil1[k])
+                                {
+                                    random1 = randomSjavardyr.Next(0, 31);
+                                    k = 0;
+                                }
+                                else if (k == 30)
+                                {
+                                    break;
+                                }
+                            }
+                            if (i % 2 == 0 || i == 0)
+                            {
+                                spilari3[m1] = random1;
+                                m1++;
+                            }
+                            else
+                            {
+                                spilari4[n1] = random1;
+                                n1++;
+                            }
+                            öllSpil1[i] = random1;
+                        }
+                        for (int i = 0; i < 30; i++)
+                        {
+                            Console.Write(spilari3[i] + " ");
+                        }
+                        Console.WriteLine();
+                        for (int i = 0; i < 30; i++)
+                        {
+                            Console.Write(spilari4[i] + " ");
+                        }
+                        Console.WriteLine();
+                        for (int i = 0; i < 30; i++)
+                        {
+                            Console.Write(öllSpil1[i] + " ");
+                        }
                         Console.ReadKey();
                         break;
                     case "0":
