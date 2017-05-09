@@ -16,6 +16,7 @@ namespace Lokaverkefni_Console
 
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.Unicode;
             /*int counter = 0;
             do
             {
@@ -36,6 +37,7 @@ namespace Lokaverkefni_Console
                     Console.WriteLine("0. HÆTTA");
 
                     val = Console.ReadLine();
+                Console.Clear();
                 switch (val)
                 {
                     case "1":
@@ -57,7 +59,7 @@ namespace Lokaverkefni_Console
                         Risaedluspilid risaedlanr16 = new Risaedluspilid("Kambeðla", "3", "3100", "9", "2", "1", "76");
                         Risaedluspilid risaedlanr17 = new Risaedluspilid("Sagtanni", "1.8", "60", "0", "7", "10", "76");
                         Risaedluspilid risaedlanr18 = new Risaedluspilid("Breiðnasi", "3", "0", "6", "2", "4", "70");
-                        Risaedluspilid risaedlanr19 = new Risaedluspilid("Trölgarmur", "6", "8000", "16", "10", "7", "100");
+                        Risaedluspilid risaedlanr19 = new Risaedluspilid("Tröllgarmur", "6", "8000", "16", "10", "7", "100");
                         Risaedluspilid risaedlanr20 = new Risaedluspilid("Trölleðla", "26", "40000", "26", "3", "2", "156");
                         Risaedluspilid risaedlanr21 = new Risaedluspilid("Frumhyrna", "1.5", "400", "2", "2", "4", "72");
                         Risaedluspilid risaedlanr22 = new Risaedluspilid("Drísileðla", "2", "27", "3", "4", "7", "225");
@@ -100,13 +102,9 @@ namespace Lokaverkefni_Console
                         risaedlufylki[27] = risaedlanr28;
                         risaedlufylki[28] = risaedlanr29;
                         risaedlufylki[29] = risaedlanr30;
-                        foreach (var item in risaedlufylki)
-                        {
-                            Console.WriteLine(item.ToString());
-                        }
                         int[] öllSpil = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                        int[] spilari1 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                        int[] spilari2 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari1 = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari2 = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
                         Random randomRisaedla = new Random();
                         int random = 0;
                         int m = 0;
@@ -129,7 +127,7 @@ namespace Lokaverkefni_Console
                             }
                             if (i % 2 == 0 || i == 0)
                             {
-                                spilari1[m] = random;
+                                spilari2[m] = random;
                                 m++;
                             }
                             else
@@ -139,20 +137,25 @@ namespace Lokaverkefni_Console
                             }
                             öllSpil[i] = random;
                         }
-                        for (int i = 0; i < 30; i++)
-                        {
-                            Console.Write(spilari1[i] + " ");
-                        }
+                        Console.WriteLine("Þín spil:");
+                        Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine();
-                        for (int i = 0; i < 30; i++)
+                        int tala = 0;
+                        for (int i = 0; i < spilari1.GetLength(0) - 1; i++)
                         {
-                            Console.Write(spilari2[i] + " ");
+                            tala = spilari1[i];
+                            Console.WriteLine(risaedlufylki[tala]);
                         }
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Spil tölvu:");
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine();
-                        for (int i = 0; i < 30; i++)
+                        for (int i = 0; i < spilari2.GetLength(0) - 1; i++)
                         {
-                            Console.Write(öllSpil[i] + " ");
+                            tala = spilari2[i];
+                            Console.WriteLine(risaedlufylki[tala]);
                         }
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.ReadKey();
                         break;
                     case "2":
@@ -228,8 +231,8 @@ namespace Lokaverkefni_Console
                         }
 
                         int[] öllSpil1 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                        int[] spilari3 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                        int[] spilari4 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari3 = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        int[] spilari4 = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
                         Random randomSjavardyr = new Random();
                         int random1 = 0;
                         int m1 = 0;
@@ -262,20 +265,25 @@ namespace Lokaverkefni_Console
                             }
                             öllSpil1[i] = random1;
                         }
-                        for (int i = 0; i < 30; i++)
-                        {
-                            Console.Write(spilari3[i] + " ");
-                        }
+                        Console.WriteLine("Þín spil:");
+                        Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine();
-                        for (int i = 0; i < 30; i++)
+                        int tala1 = 0;
+                        for (int i = 0; i < spilari3.GetLength(0) - 1; i++)
                         {
-                            Console.Write(spilari4[i] + " ");
+                            tala1 = spilari3[i];
+                            Console.WriteLine(sjavardyrfylki[tala1]);
                         }
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.WriteLine("Spil tölvu:");
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine();
-                        for (int i = 0; i < 30; i++)
+                        for (int i = 0; i < spilari4.GetLength(0) - 1; i++)
                         {
-                            Console.Write(öllSpil1[i] + " ");
+                            tala1 = spilari4[i];
+                            Console.WriteLine(sjavardyrfylki[tala1]);
                         }
+                        Console.ForegroundColor = ConsoleColor.White;
                         Console.ReadKey();
                         break;
                     case "0":

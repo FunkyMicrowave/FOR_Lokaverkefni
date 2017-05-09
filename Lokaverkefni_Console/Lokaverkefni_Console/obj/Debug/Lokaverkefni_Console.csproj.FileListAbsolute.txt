@@ -20,3 +20,11 @@ C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\
 C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\ClassLibrary1_BAJ_MB.dll
 C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\ClassLibrary1_BAJ_MB.pdb
 C:\Users\Matthias\Downloads\FOR_Lokaverkefni-master (1)\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.csprojResolveAssemblyReference.cache
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.exe.config
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.exe
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.pdb
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.exe
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\Lokaverkefni_Console.pdb
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\ClassLibrary1_BAJ_MB.dll
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\bin\Debug\ClassLibrary1_BAJ_MB.pdb
+C:\Users\Matthias\Desktop\FOR_Lokaverkefni-master\Lokaverkefni_Console\Lokaverkefni_Console\obj\Debug\Lokaverkefni_Console.csprojResolveAssemblyReference.cache
