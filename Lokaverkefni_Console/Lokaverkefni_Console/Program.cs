@@ -104,7 +104,8 @@ namespace Lokaverkefni_Console
                         {
                             Console.WriteLine(item.ToString());
                         }
-                           break;
+                        Console.ReadKey();
+                        break;
                     case "2":
 
                         Random randomSjavardyr = new Random();
@@ -177,12 +178,21 @@ namespace Lokaverkefni_Console
                             Console.WriteLine(item.ToString());
                         }
 
+
+                        Console.ReadKey();
+                        break;
+                    case "0":
+
                         break;
                         default:
-                            break;
+                        Console.WriteLine("ekki til");
+                        Console.ReadKey();
+                        break;
                     }
-                    Console.ReadKey();
+
                 } while (val != "0");
+            Console.WriteLine("takk fyrir að nota forritið");
+            System.Threading.Thread.Sleep(500);
         }
 
 
