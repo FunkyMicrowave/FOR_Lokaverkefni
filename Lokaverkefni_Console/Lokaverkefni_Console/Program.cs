@@ -17,19 +17,19 @@ namespace Lokaverkefni_Console
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.Unicode;
-            /*int counter = 0;
+            int counter = 0;
             do
-            {
+            {//Loading screen
                 Logo();
                 Loading(counter);
                 counter++;
                 System.Threading.Thread.Sleep(500);
                 Console.Clear();
-            } while (counter != 12);*/
+            } while (counter != 12);
 
             Console.ForegroundColor = ConsoleColor.White;
             string val = "0";
-                do
+                do //forritið sjálf
                 {
                     Console.Clear();
                     Console.WriteLine("1. Risaedlu spilið");
@@ -40,7 +40,7 @@ namespace Lokaverkefni_Console
                 Console.Clear();
                 switch (val)
                 {
-                    case "1":
+                    case "1": //Risaeðla listi og utskrift
                         Risaedluspilid risaedlanr1 = new Risaedluspilid("Þvengeðla", "0.7", "3", "1.4", "5", "7", "145");
                         Risaedluspilid risaedlanr2 = new Risaedluspilid("Miðhyrna", "2", "1000", "6", "2", "4", "76");
                         Risaedluspilid risaedlanr3 = new Risaedluspilid("Bageðla", "0.8", "50", "2", "1", "6", "125");
@@ -109,7 +109,7 @@ namespace Lokaverkefni_Console
                         int random = 0;
                         int m = 0;
                         int n = 0;
-                        for (int i = 0; i < 30; i++)
+                        for (int i = 0; i < 30; i++) // splitum upp milli tölvu og notanda
                         {
                             random = randomRisaedla.Next(1, 31);
                             int l = 30;
@@ -125,8 +125,8 @@ namespace Lokaverkefni_Console
                                     break;
                                 }
                             }
-                            if (i % 2 == 0 || i == 0)
-                            {
+                            if (i % 2 == 0 || i == 0) // förum yfir hvort notandi og tölva fái sömu spil
+                            {                           //og skrifum svo ut
                                 spilari2[m] = random;
                                 m++;
                             }
@@ -159,10 +159,7 @@ namespace Lokaverkefni_Console
                         Console.ReadKey();
                         break;
                     case "2":
-
-                        
-
-
+                        //sjávardýr í array og gefið gildi
                         Sjávardýr sjavardyr0 = new Sjávardýr("ELDFISKUR", "3", "16", "2", "13", "0", "");
                         Sjávardýr sjavardyr1 = new Sjávardýr("Sæotur", "4", "10", "4", "14", "4", "");
                         Sjávardýr sjavardyr2 = new Sjávardýr("BEINHÁKARL", "5", "0", "2", "21", "3", "");
@@ -225,15 +222,15 @@ namespace Lokaverkefni_Console
                         sjavardyrfylki[27] = sjavardyr27;
                         sjavardyrfylki[28] = sjavardyr28;
                         sjavardyrfylki[29] = sjavardyr29;
-                        foreach (var item in sjavardyrfylki)
+                        /*foreach (var item in sjavardyrfylki)
                         {
                             Console.WriteLine(item.ToString());
-                        }
+                        }* test til að þetta virki*/
 
                         int[] öllSpil1 = new int[30] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
                         int[] spilari3 = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
                         int[] spilari4 = new int[15] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                        Random randomSjavardyr = new Random();
+                        Random randomSjavardyr = new Random();// splitum upp milli tölvu og notanda
                         int random1 = 0;
                         int m1 = 0;
                         int n1 = 0;
@@ -253,9 +250,9 @@ namespace Lokaverkefni_Console
                                     break;
                                 }
                             }
-                            if (i % 2 == 0 || i == 0)
-                            {
-                                spilari3[m1] = random1;
+                            if (i % 2 == 0 || i == 0)// förum yfir hvort notandi og tölva fái sömu spil
+                            {                           //og skrifum svo út
+                                spilari4[m1] = random1;
                                 m1++;
                             }
                             else
@@ -265,7 +262,7 @@ namespace Lokaverkefni_Console
                             }
                             öllSpil1[i] = random1;
                         }
-                        Console.WriteLine("Þín spil:");
+                        Console.WriteLine("Þín spil:"); //útskrift
                         Console.ForegroundColor = ConsoleColor.Blue;
                         Console.WriteLine();
                         int tala1 = 0;
@@ -300,7 +297,7 @@ namespace Lokaverkefni_Console
             System.Threading.Thread.Sleep(500);
         }
 
-
+        // loading screen litir og þannig stuff
         static void Loading(int counter)
         {
             for (int i = 0; i < 7; i++)
